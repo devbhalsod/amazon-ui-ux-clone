@@ -1,0 +1,565 @@
+body {
+  color:black;
+  
+  background-color:rgb(229, 228, 226);
+}
+.nav {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  /* position: fixed; */
+  /* position: absolute; */
+  /* position: relative; */
+}
+.logo{
+  width: 170px;
+  padding: 5px;
+}
+.logo img {
+  padding: 4px;
+}
+.logo :hover {
+  box-shadow: 1px 1px 1px white;
+}
+.address div{
+  height: 70px;
+}
+.address {
+  margin-top: 4px;
+  width: 200px;
+  
+  font-size: larger;
+  color: white;
+  padding: 5px;
+}
+.address :hover {
+  border: 2px solid white;
+}
+
+.search {
+  display: flex;
+
+  align-items: center;
+  border-radius: 4px;
+  padding: 5px;
+  
+}
+.search input {
+  margin-top: 10px;
+  width: 900px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: large;
+}
+.search img {
+  margin-top: 10px;
+  fill: orange;
+}
+.english :hover {
+  border: 2px solid white;
+}
+
+.en {
+  display: flex;
+  font-size: larger;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-self: center;
+  gap: 4px;
+  padding: 6px;
+  width: auto;
+  height: auto;
+  color: white;
+}
+.account {
+  display: flex;
+  font-size: larger;
+
+  flex-direction: column;
+  /* padding: 10px; */
+}
+.a .account:hover {
+  border: 2px solid white;
+}
+.order :hover {
+  border: 2px solid white;
+}
+.order div {
+  font-weight: bold;
+  width: 60px;
+  padding: 5px;
+  color: white;
+  font-size: large;
+  height: 60px;
+}
+.cartorder{
+  width: 100px;
+height: 60px;
+padding: 10px;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  width: 100px;
+height: 60px;
+padding: 4px;
+}
+.cartorder .cart :hover {
+  border-color: white;
+  border: 2px solid;
+}
+.cart .c {
+  color: white;
+  font-size: x-large;
+}
+.cart .im {
+  filter: invert(1);
+}
+
+.navigationitem {
+  /* margin-top: 60px; */
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  gap: 3px;
+  /* position: relative; */
+}
+.all :hover {
+  border: 2px solid white;
+}
+.f :hover {
+  border: 2px solid white;
+}
+.mx div {
+  /* width: 90px; */
+  /* height: 10px; */
+}
+.mx:hover {
+  border: 2px solid white;
+}
+.s :hover {
+  border: 2px solid white;
+}
+.bests div {
+  /* width: 100px; */
+}
+.bests:hover {
+  border: 2px solid white;
+}
+.mobile:hover {
+  border: 2px solid white;
+}
+.todaydeal div {
+  /* width: 120px; */
+}
+.todaydeal:hover {
+  border: 2px solid white;
+}
+.customer div {
+  /* width: 150px; */
+}
+.customer :hover {
+  border: 2px solid white;
+}
+.Electronics:hover {
+  border: 2px solid white;
+}
+.amazon div {
+  /* width: 100px; */
+}
+.amazon :hover {
+  border: 2px solid white;
+}
+.prime :hover {
+  border: 2px solid white;
+}
+.homekitchen div {
+  /* width: 120px; */
+}
+.homekitchen :hover {
+  border: 2px solid white;
+}
+.releases div {
+  /* width: 120px; */
+}
+.releases :hover {
+  border: 2px solid white;
+}
+
+.Fashion :hover {
+  border: 2px solid white;
+}
+.Computers:hover {
+  border: 2px solid white;
+}
+
+.car :hover {
+  border: 2px solid white;
+}
+.book:hover {
+  border: 2px solid white;
+}
+
+.image{
+  position: absolute;
+}
+.bigcontainer{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex-wrap: wrap;
+  width: 2100px;
+  gap: 10px;
+ 
+ justify-items: center;
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width:450px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+  /* position: absolute; */
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width: 450px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+}
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width: 450px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 400px;
+  margin-top: 10px;
+
+  gap: 20px;
+  padding: 2px;
+}
+
+
+.grid1 img {
+  box-shadow: 2px 2px 5px rgb(72, 6, 6);
+  padding: 2px;
+}
+.grid1 .item div div {
+  filter: brightness(90%);
+  margin-left: 40px;
+  display: flex;
+  width: 100px;
+  
+}
+.grid1 .item :hover {
+  filter: brightness(100%);
+  cursor: pointer;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 400px;
+    margin-top: 10px;
+    
+    gap: 20px;
+    padding: 2px;
+  
+}
+.grid2 img {
+  box-shadow: 2px 2px 5px rgb(72, 6, 6);
+}
+.grid2 .item div  div {
+  filter: brightness(90%);
+  margin-left: 60px;
+  text-align:justify;
+  width: 100px;
+}
+.grid2 .item :hover {
+  filter: brightness(100%);
+  cursor: pointer;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 400px;
+  margin-top: 10px;
+  
+  gap: 20px;
+  padding: 2px;
+}
+.grid3 img {
+  box-shadow: 2px 2px 5px rgb(72, 6, 6);  
+  padding: 2px;
+}
+.grid3 .item div div {
+  filter: brightness(90%);
+  margin-left: 60px;
+  width: 100px;
+}
+.grid3 .item :hover {
+  filter: brightness(100%);
+  cursor: pointer;
+}
+
+
+
+.container4{
+  display: flex;
+  
+  flex-wrap: wrap;
+  
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width: 450px;
+  padding: 10px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+}
+.grid4 {
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 400px;
+  margin-top: 10px;
+  
+  gap: 20px;
+  padding: 2px;
+}
+.grid4 img {
+box-shadow: 2px 2px 5px rgb(72, 6, 6);
+padding: 2px;
+}
+.grid4 .item div  div{
+filter: brightness(90%);
+margin-left: 60px;
+width: 100px;
+}
+.grid4 .item :hover {
+filter: brightness(100%);
+cursor: pointer;
+}
+
+
+.container5{
+  display: flex;
+  
+  flex-wrap: wrap;
+  
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width: 450px;
+  padding: 10px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+}
+.grid5 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 400px;
+  margin-top: 10px;
+  
+  gap: 20px;
+  padding: 2px;
+}
+.grid5 img {
+box-shadow: 2px 2px 5px rgb(72, 6, 6);
+padding: 2px;
+}
+.grid5 .item div div {
+filter: brightness(90%);
+margin-left: 60px;
+width: 100px;
+}
+.grid5 .item :hover {
+filter: brightness(100%);
+cursor: pointer;
+}
+
+
+.container6{
+  display: flex;
+  
+  flex-wrap: wrap;
+  
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width: 450px;
+  padding: 10px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+}
+.grid6 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 400px;
+  margin-top: 10px;
+  
+  gap: 20px;
+  padding: 2px;
+}
+.grid6 img {
+box-shadow: 2px 2px 5px rgb(72, 6, 6);
+padding: 2px;
+}
+.grid6 .item div div {
+filter: brightness(90%);
+margin-left: 60px;
+width: 100px;
+}
+.grid6 .item :hover {
+filter: brightness(100%);
+cursor: pointer;
+}
+.container7{
+  display: flex;
+  
+  flex-wrap: wrap;
+  
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width: 450px;
+  padding: 10px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+}
+.grid7 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 400px;
+  margin-top: 10px;
+  
+  gap: 20px;
+  padding: 2px;
+}
+.grid7 img {
+box-shadow: 2px 2px 5px rgb(72, 6, 6);
+padding: 2px;
+}
+.grid7 .item div  div{
+filter: brightness(90%);
+margin-left: 60px;
+width: 100px;
+}
+.grid7 .item :hover {
+filter: brightness(100%);
+cursor: pointer;
+}
+.container8{
+  display: flex;
+  
+  flex-wrap: wrap;
+  
+  background-color: rgb(250, 249, 246);
+  justify-content: center;
+  width: 450px;
+  padding: 10px;
+  height: 500px;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  gap: 0px;
+  overflow: hidden;
+}
+.grid8 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 400px;
+  margin-top: 10px;
+  
+  gap: 20px;
+  padding: 2px;
+}
+.grid8 img {
+box-shadow: 2px 2px 5px rgb(72, 6, 6);
+padding: 2px;
+} 
+.grid8 .item div div {
+filter: brightness(90%);
+margin-left: 60px;
+width: 100px;
+}
+.grid8 .item :hover {
+filter: brightness(100%);
+cursor: pointer;
+}
+
+
+.navforitmes{
+}
+.colthes div h2{
+  color: black; 
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 40px;
+  
+}
+
+.colthes{
+  width: 2000px;
+  background-color:rgb(250, 249, 246); 
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.itemphoto  img{
+  z-index: 5px;
+  border-radius: 5px;
+}
+
+.itemphoto{
+  overflow: hidden;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 40px;
+  gap: 7px;
+  padding: 5px;
+}
